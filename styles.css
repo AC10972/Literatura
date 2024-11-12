@@ -6,16 +6,16 @@
 @import url("styles/rodapé.css");
 
 :root {
-    --cor-de-fundo: #6D4F32;
-    --branco: #3E2723;
-    --laranja: #D7C3B1;
-    --azul-degrade: linear-gradient(97.54deg, #FBE9E7 35.49%, #FBE9E7 165.37%);
+    --cor-de-fundo: #6D4F32; /* Marrom escuro */
+    --branco: #3E2723; /* Marrom muito escuro */
+    --laranja: #D7C3B1; /* Bege suave */
+    --azul-degrade: linear-gradient(97.54deg, #D9C4A1 35.49%, #D9C4A1 165.37%); /* Gradient suave de marrom claro */
     --fonte-principal: "Poppins";
-    --azul: #FFFFFF;
+    --azul: #FFFFFF; /* Branco (sem alteração) */
     --fonte-secundario: "Josefin Sans";
-    --preto: #4E342E;
-    --cinza: #5D4037;
-    --cinza-claro: #9E7D56;
+    --preto: #3E2723; /* Marrom escuro */
+    --cinza: #5D4037; /* Marrom escuro */
+    --cinza-claro: #A89F91; /* Cinza claro com tom de marrom */
 }
 
 body {
