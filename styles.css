@@ -1,0 +1,26 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodapé.css");
+
+:root {
+    --cor-de-fundo: #e0abab; /* Rosa pastel suave para o fundo */
+    --branco: #dc8b8b; /* Rosa claro e suave */
+    --laranja: #794545; /* Rosa muito suave, quase pêssego */
+    --azul-degrade: linear-gradient(97.54deg, #8f5252 35.49%, #8f5252 165.37%); /* Gradiente suave em tons de rosa pastel */
+    --fonte-principal: "Poppins";
+    --azul: #995151; /* Branco (sem alteração) */
+    --fonte-secundario: "Josefin Sans";
+    --preto: #000000; /* Rosa suave mais forte */
+    --cinza: #432929; /* Rosa médio e suave */
+    --cinza-claro: #8d3a3a; /* Rosa muito claro e suave */
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
